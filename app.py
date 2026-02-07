@@ -15,7 +15,7 @@ import numpy as np
 import joblib
 
 # loading the ML model
-model=joblib.load("/content/sample_data/model_pipeline.pkl")
+model=joblib.load("model_pipeline.pkl")
 
 st.title("Continuous Behavioural Authentication")
 st.markdown("To classify user activity using supervised machine learning (binary) classifer which predicts legitimate activity (0) and suspicious activity (1)")
